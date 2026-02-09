@@ -4,9 +4,9 @@ const path = require("path");
 
 /* 🔒 HARD-LOCK CREDITS PROTECTION 🔒 */
 function protectCredits(config) {
-  if (config.credits !== "ARIF-BABU") {
+  if (config.credits !== "ALI-BABU") {
     console.log("\n🚫 Credits change detected! Restoring original credits…\n");
-    config.credits = "ARIF-BABU";
+    config.credits = "ALI-BABU";
     throw new Error("❌ Credits are LOCKED by ARIF-BABU 🔥 File execution stopped!");
   }
 }
@@ -63,7 +63,7 @@ Roman Urdu: "Kya kar rahe ho?" → "Bas tumhara hi khayal aa raha hai 😌❤️
 `;
 
 /* 📁 DATA PATHS */
-const DATA_DIR = path.join(__dirname, "ARIF-BABU");
+const DATA_DIR = path.join(__dirname, "ALI-BABU");
 const HISTORY_FILE = path.join(DATA_DIR, "ai_history.json");
 const BOT_REPLY_FILE = path.join(DATA_DIR, "bot-reply.json");
 
